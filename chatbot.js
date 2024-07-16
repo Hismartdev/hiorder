@@ -28,7 +28,7 @@ async function fetchAIResponse(prompt) {
             'Authorization': `Bearer ${apiKey}`
         },
         body: JSON.stringify({
-            model: "gpt-3.5-turbo",  // 사용할 AI 모델
+            model: "gpt-4.0",  // 사용할 AI 모델
             messages: [{
                 role: "user", // 메시지 역할을 user로 설정
                 content: prompt // 사용자가 입력한 메시지
